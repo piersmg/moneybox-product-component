@@ -9,11 +9,11 @@ This small component demo uses Google Sheets as the product database and will up
 
 ### `npm start`
 
-Runs the app in the development mode.\
-1. Open up your Terminal / Command Line\
-2. git clone the repository\
-3. cd to _moneybox_ folder\
-4. run  _npm start_\
+Runs the app in the development mode.
+1. Open up your Terminal / Command Line
+2. git clone the repository
+3. cd to _moneybox_ folder
+4. run  _npm start_
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
