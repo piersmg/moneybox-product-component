@@ -30,7 +30,8 @@ const ProductSlider = () => {
     // Google Sheets configuration for product data
     const sheetId = '1f9pf4xQWhEGu9fY_NOBso5s5WyntFhyJzsX7R3yAMXQ';
     const sheetName = 'Sheet1'
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetName}?key=AIzaSyDBS0VmEjDRJ_21qbTADHz-cn38-yXaZIk`
+    const API_KEY = '123'; // Replace with your actual API key
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetName}?key=${API_KEY}`;
 
     // Fetch and process product data on component mount
     useEffect(() => {
